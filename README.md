@@ -16,3 +16,8 @@
     * if ena is wrong, more data will be added to Compare, So be careful
 * After Finishing Each Reading, The Finishb will Be Raised, The PINGPONGRAM will Be Pointed At Another Sector. **MAKE SURE YOUR ENA SIGNAL STAY HIGH DURING READING FROM ONE SECTOR OF PINGPONGRAM**
 
+
+
+# Find Max B module
+* Used To Capture The Max Data And 2 Nearest Numbers
+* Implemented AXI4 Stream (has TLAST)
